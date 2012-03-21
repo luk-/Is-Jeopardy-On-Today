@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Is Jeopardy! On Today?</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+<div id="container">
+<div id="clue"></div>
+</div>
+
+<script type="text/javascript" src="today.js"></script>
+<script type="text/javascript">
+var clue = document.getElementById('clue').innerHTML;
+switch (clue) {
+  case "YES":
+    var lie = "NO";
+    break;
+  case "NO":
+    var lie = "YES";
+    break;
+}
+document.getElementById('clue').innerHTML = lie;
+</script>
+<script type="text/javascript" src="ga.js"></script>
+</body>
+
+<!-- oh hai! twitter.com/st_luke
+     proudly hosted on nodejitsu.com -->
+
+</html>

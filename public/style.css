@@ -1,0 +1,23 @@
+html {
+  background: #12229B
+}
+
+@font-face {
+  font-family: yeopardy;
+  src: url(scakorinnabold.ttf);
+}
+
+#clue {
+  color: #fff;
+  font-family: yeopardy, serif;
+  font-size: 50px;
+  text-shadow: #000 4px 4px 2px;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  width: 99%;
+  text-align: center;
+  margin-top: -50px;
+}

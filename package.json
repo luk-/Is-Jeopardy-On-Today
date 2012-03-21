@@ -1,0 +1,43 @@
+{
+  "name": "isjeopardyontoday",
+  "subdomain": "isjeopardyontoday",
+  "domains": [
+    "isjeopardyontoday.com",
+    "www.isjeopardyontoday.com"
+  ],
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.1.4-4",
+  "engines": {
+    "node": "v0.6.x"
+  },
+  "dependencies": {
+    "node-static": "0.5.x",
+    "winston": "0.5.x"
+  },
+  "repository": {},
+  "env": {
+    "SUBDOMAIN": "isjeopardyontoday",
+    "NODE_ENV": "production"
+  },
+  "databases": {},
+  "ctime": 1331873215783,
+  "mtime": 1331874076280,
+  "last": {
+    "id": "0.1.0",
+    "ctime": 1331873216631,
+    "md5": "0a608e68de29ac10647da8a9bce3ae23",
+    "filename": "isjeopardyontoday-isjeopardyontoday-0.1.0.tgz",
+    "active": false,
+    "running": false
+  },
+  "running": {
+    "id": "0.1.0-1",
+    "ctime": 1331874071838,
+    "md5": "d76811d419d680e89b5164b9876b69fc",
+    "filename": "isjeopardyontoday-isjeopardyontoday-0.1.0-1.tgz",
+    "active": false,
+    "running": false
+  }
+}

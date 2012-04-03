@@ -7,4 +7,4 @@ http.createServer (function (request, response) {
   request.addListener ('end', function () {
     site.serve(request, response);
   });
-}).listen(8000);
+}).listen(80);
